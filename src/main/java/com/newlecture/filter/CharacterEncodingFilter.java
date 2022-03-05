@@ -10,7 +10,7 @@ import javax.servlet.annotation.WebFilter;
 
 //어노테이션을 이용한 필터 적용하기.
 
-@WebFilter("/notice-reg")
+@WebFilter("/*")
 public class CharacterEncodingFilter implements Filter {
 
 	@Override
